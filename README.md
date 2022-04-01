@@ -40,3 +40,10 @@
     `heroku ps:forward 9090 -a <app_name>`
  
  ---
+ 
+ ### 6. INSTALL A BUILDPACK FROM THE TERMINAL
+ -  Here we're installing the puppeteer buildpack which I tested using Nodejs.
+    
+    `heroku buildpacks:add jontewks/puppeteer -a <app_name>`
+
+---
